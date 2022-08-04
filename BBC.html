@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology - BBC NEWS</title>
+    <style type="text/css">
+    #topbar {
+        width:95%;
+        margin:0 auto;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+    
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+    }
+    #logo{
+        margin-top: 5px;
+        width: 100px;
+        float: left;
+        margin-right:8px ;
+        height: 100%;
+    }
+    .topbar-section {
+        float: left;
+        border-left: 1px grey solid;
+        height: 100%;
+    }
+    #signin-image{
+        width:30px;
+        margin: 8px 15px;
+        height: 100%;
+        float: left;
+        font-family: ReithSans, Arial, Helvetica, freesans, sans-serif;
+        
+    }
+    #signin-text{
+        font-weight: bold;
+        font-size: 100%;
+        position: relative;
+        top: 22px;
+        padding-right: 50px;
+
+    }
+    .topbar-menu{
+        font-weight: bold;
+        font-size: 100%;
+        padding: 14px 15px 0px 15px;
+        height:36px;
+        float: left;
+    }
+    #move-arrow{
+        margin-right: 15px;
+        width: 15px;
+
+    }
+    #search-box{
+        background-color: #A9A9A9;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 5px;
+        margin: 5px;
+        float: left;
+    }
+    #magnifying-glass{
+        background-color: #A9A9A9 ;
+
+    }
+    .clear{
+        clear: both;
+    }
+    #menu-bar-container{
+        background-color: #BB1919;
+        width: 100%;
+        height: 100px;
+        border-bottom: 1px #CCCCCC;
+    }
+    #menu-bar{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    h1{
+        padding: 0;
+        margin: 0 auto;
+        font-size:70px;
+        color: honeydew;
+        font-weight: normal;
+        padding-top: 10px;
+        float: left;
+
+    }
+    h1 a{
+        color: honeydew;
+        text-decoration: none;
+
+    }
+    h1 a:hover {
+        text-decoration: underline;
+    }
+    #local-news{
+        float: right;
+        color: honeydew;
+       font-size: 30px;
+       padding: 20px 10px;
+       border: 1px #BB4545 solid;
+
+    }
+    #local-news a{
+        color: honeydew;
+        text-decoration: none;
+        padding: 5px 5px 0 10px;
+        margin: 5px 10px 0 0;
+
+    }
+    #local-news a:hover {
+        text-decoration: underline;
+    }
+    #menu-bar-2-container{
+        background-color: #A91717;
+        width: 100%;
+    }
+    #menu-bar-2{
+        width: 100%;
+        margin: 10px auto;
+        height: 45px;
+        font-size: 23px;
+    }
+    #menu-bar-2 a{
+        color: honeydew;
+        text-decoration: none;
+        margin-top: 15px;
+        padding: 4px 3px;
+        border-right: 1px solid #BB4545;
+        position: relative;
+        top:10px;
+    }
+    #menu-bar-2 a:hover{
+        text-decoration: underline;
+    }
+    #no-border{
+        border: none !important;
+    }
+ #page-container{
+     width: 1000px;
+     margin:0 auto;
+ }
+ h2 {
+     font-weight: normal;
+     margin-top: 20px;
+     font-size: 20px;
+     border-bottom: 4px solid #a91717;
+     width: 105px;
+ }
+ h3 a{
+     color:black;
+     font-size: 39px;
+     text-decoration: none;
+
+ }
+ h3 a:hover{
+     color: #1167aB;
+ }
+ #article-summary{
+     color: #5a5a5a;
+     width: 250px;
+ }
+ #article-summary{
+     height: 15px;
+     position: relative;
+     top: 5px;
+     float: left;
+ }
+#topic-link {
+     text-decoration: none;
+     color: #a91717;
+     border-left: 1px solid #CCCCCC;
+     padding-left: 10px;
+ }
+ #article-summary a:hover {
+     color: #1167a8;
+ }
+ #date {
+     padding-right: 10px;
+ }
+ #article-container {
+     float: left;
+     width:600px;
+   
+ }
+ #main-article-image {
+     width: 400px;
+    
+ }
+ #article-hr{
+     border-top:1px solid #a91717;
+     width: 300px;
+     
+ }
+ .article-link{
+     color: black;
+     text-decoration:none;
+ }
+    </style>
+</head>
+<body>
+    <div id="topbar">
+        <img id="logo" src="pictures/bbclogo.png">
+        <div id="signin-div" class="topbar-section">
+            <img id="signin-image" src="pictures/signinimage.png">
+           <span id="signin-text" >Sign in</span>
+        </div>
+        <div class="topbar-section topbar-menu">News</div>
+        <div class="topbar-section topbar-menu">Sport</div>
+        <div class="topbar-section topbar-menu">Weather</div>
+        <div class="topbar-section topbar-menu">iPlayer</div>
+        <div class="topbar-section topbar-menu">TV</div>
+        <div class="topbar-section topbar-menu">More
+            <img id="move-arrow" src="pictures/move-arrow.png">
+        </div>
+        <div class="topbar-section">
+            <input id="search-box" type="text" value="Search">
+            <input type="image" id=magnifying-glass" src="pictures/search bar.png">
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="menu-bar-container">
+        <div id="menu-bar">
+       <h1 ><a href="">NEWS</a></h1>
+        </div>
+        <div id="local-news">
+    <a href="" >Find local News</a>
+        </div>
+        <div>
+    </div>
+    <div class="clear"></div>
+    <div id="menu-bar-2-container">
+        <div id="menu-bar-2">
+            <a href="">Home</a>
+            <a href="">UK</a>
+            <a href="">World</a>
+            <a href="">Business</a>
+            <a href="">Politics</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Health</a>
+            <a href="">Education</a>
+            <a href="">Entertainment & Arts</a>
+            <a href="">Video & Audio</a>
+            <a href="" class="no-border">More</a>
+        </div>
+
+    </div>
+    <div claas="clear"></div>
+    
+        <div id="page-container">
+            <div id="main-article">
+                <h2>Technology</h2>
+                <div id="article-container">
+                <h3><a href="">Asda bug exposed payment details</a></h3>
+                <div id="article-summary">
+                <p>Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years,a security expert has revealed.</p>
+            <p><img src="pictures/timer.png"> <span id="date">19 January 2016</span><a id="topic-link" href="">Technology</a></p>
+        <hr id="article-hr" align="left">
+    <p> <a class="article-link" href="">Surveillance firm hit in hack attack</a></p>
+    <p> <a class="article-link" href="">eBay flaw has existed for months</a></p>
+</div>
+                </div>
+                <img id="main-article-image" src="pictures/asda.png"
+            </div>
+        </div>
+    </div>
+</body>
+</html>
